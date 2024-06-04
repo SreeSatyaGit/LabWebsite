@@ -30,11 +30,24 @@
   color: #00c6ff;
 }
 
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+}
+
 .navbar-links a {
-  margin: 0 15px;
   text-decoration: none;
-  color: #000;
+  color: #333;
   font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #00c6ff;
 }
 
 .navbar-buttons {
