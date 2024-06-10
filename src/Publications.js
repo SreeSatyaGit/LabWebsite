@@ -1,10 +1,9 @@
-// Research.js
 import React from 'react';
 
-function Research() {
+function Publications() {
   return (
-    <section id="research">
-      <h1>Our Research</h1>
+    <section id="publications">
+      <h1>Publications</h1>
       <p>
         We are actively involved in various research projects to develop innovative biotechnology solutions.
       </p>
@@ -12,4 +11,4 @@ function Research() {
   );
 }
 
-export default Research;
+export default Publications;
